@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_calendar"
+        android:title="Xem lịch"
+        android:icon="@drawable/ic_calendar"/>
+    <item
+        android:id = "@+id/nav_home"
+        android:title="Hôm nay"
+        android:icon="@drawable/ic_today"
+        />
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Nhắc nhở"
+        android:icon="@drawable/ic_alarm"
+        />
+    <item
+        android:id="@+id/nav_note"
+        android:title="Nhật ký"
+        android:icon="@drawable/ic_note"/>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800px"
+    android:layout_height="wrap_content"
+    android:background="#A39365"
+    android:orientation="vertical"
+    android:padding="30px">
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSelDate"
+        android:text="Chọn ngày"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@android:color/black"
+        android:padding="30px"/>
+    <EditText
+        android:layout_width="420px"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSelDate"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@id/btnSelDate"
+        android:layout_marginLeft="50px"/>
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSelTime"
+        android:text="Chọn giờ"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@android:color/black"
+        android:padding="30px"
+        android:layout_below="@id/btnSelDate"
+        android:layout_marginTop="30px"/>
+    <EditText
+        android:layout_width="420px"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSelTime"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@id/btnSelTime"
+        android:layout_below="@id/txtSelDate"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="30px"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/arima_madurai_extrabold"
+        android:text="Nội dung"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="30px"
+        android:id="@+id/tvContent"
+        android:layout_below="@id/btnSelTime"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/droid_serif_bold"
+        android:singleLine="false"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:id="@+id/txtContent"
+        android:layout_below="@id/tvContent"/>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corner"
+        android:text="OK"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/txtContent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30px"/>
+
+</RelativeLayout>

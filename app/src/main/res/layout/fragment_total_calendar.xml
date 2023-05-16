@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0D4E6"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtYear"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:background="@drawable/rounded_corner"
+        android:padding="10px"
+        android:text="Lịch tổng"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/arima_madurai_extrabold" />
+
+    <CalendarView
+        style="@android:style/Widget.DeviceDefault.CalendarView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="10sp"
+        android:background="@drawable/rounded_corner"
+        android:dateTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:firstDayOfWeek="2"
+        android:focusedMonthDateColor="#000000"
+        android:selectedWeekBackgroundColor="#316333"
+        android:unfocusedMonthDateColor="#000000"
+        android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:weekNumberColor="#000000" />
+</LinearLayout>

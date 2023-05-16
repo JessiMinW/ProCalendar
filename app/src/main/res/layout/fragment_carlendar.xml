@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0D4E6"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtYear"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:background="@drawable/rounded_corner"
+        android:padding="10px"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/arima_madurai_extrabold" />
+
+    <TextView
+        android:id="@+id/txtMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tháng
+"
+        android:textAlignment="center"
+        android:textColor="#960808"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/arima_madurai_extrabold" />
+
+    <TextView
+        android:id="@+id/txtDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:fontFamily="cursive"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#48547C"
+        android:textSize="150sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/droid_serif_bold" />
+
+    <TextView
+        android:id="@+id/txtDayOfWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:background="#5294CA"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/arima_madurai_extrabold" />
+
+    <TextView
+        android:id="@+id/txtLunarMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#B84E2D"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/arima_madurai_extrabold" />
+
+    <TextView
+        android:id="@+id/txtLunarDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30px"
+        android:fontFamily="cursive"
+        android:padding="20px"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#CA2059"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/droid_serif_bold" />
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteActivity"
+    android:background="#C0D4E6">
+
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/btnNext"
+        android:background="@drawable/rounded_corner"
+        android:text="X"
+        android:textColor="#923939"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPre"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnDateView"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/btnPre"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center_vertical"
+        android:text="25/12/1979"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/btnDateView"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnDateView"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="#FFFFFF">
+
+        <EditText
+            android:id="@+id/txtWrite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#729CBD"
+            android:gravity="top"
+            android:padding="8sp"
+            android:singleLine="false"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+</RelativeLayout>

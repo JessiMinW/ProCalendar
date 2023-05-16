@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800px"
+    android:layout_height="wrap_content"
+    android:background="#A39365"
+    android:orientation="vertical"
+    android:padding="30px">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập mật khẩu"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/txtNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:password="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập lại mật khẩu"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/txtRetype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:password="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Câu hỏi số 1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+    <Spinner
+        android:id="@+id/spnQuestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/txtQuestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Câu hỏi số 2"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+    <Spinner
+        android:id="@+id/spnQuestion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/txtQuestion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Câu hỏi số 3"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+    <Spinner
+        android:id="@+id/spnQuestion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/txtQuestion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="OK"
+        android:background="@drawable/rounded_corner"/>
+
+</LinearLayout>

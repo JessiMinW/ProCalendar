@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5294CA"
+        android:fontFamily="@font/arima_madurai_extrabold"
+        android:paddingLeft="10px"
+        android:text="25/02/2020"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily=""
+        android:paddingLeft="30px"
+        android:text="okok"
+        android:textColor="#263485"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif" />
+</LinearLayout>
